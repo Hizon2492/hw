@@ -68,6 +68,7 @@
 }
 
 .ux_checkbox {
+	border-radius: 0px;
 	.iconify {
 		color: $ux-checkbox-icon;
 	}
@@ -90,6 +91,7 @@
 .ux_checkbox_check {
 	border: $ux-checkbox-border;
 	background-color: $ux-checkbox-bg;
+	border-radius: 0px;
 }
 
 .ux_checkbox_label {
@@ -381,7 +383,28 @@
 	background-color: $ui-bg-color;
 }
 
-// usage of mixins requires this to be in the impl
+#ux_interface_file_list{
+	border: 1px;
+	border-style: solid;
+	border-color: 646464;
+	position:relative;
+	left:2%;
+	height:89.5%;
+	top:5%;
+}
+
+#ux_interface_editor {
+	height:90%;
+	width:80%;
+	padding-left:0px;
+	border: 1px;
+	border-style: solid;
+	top:5%;
+	left:1%;
+	flex-grow:.5;
+	position:relative;
+}
+
 #changelog {
 	margin-left: 10px;
 	margin-top: 10px;
