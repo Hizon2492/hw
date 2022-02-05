@@ -1,0 +1,12 @@
+{
+    "id": "razer",
+    "name": "Razer Synapse",
+    "stylesheet": true,
+    "editor": "vs-dark",
+    "settingOverrides": {
+        "squaretabs": true,
+        "uisetting_classiclayout": false,
+        "uisetting_verticalnavcenter": false,
+        "uisetting_verticalnav": false
+    }
+}
