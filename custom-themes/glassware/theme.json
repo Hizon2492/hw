@@ -1,0 +1,12 @@
+{
+    "id": "glassware",
+    "name": "Glass-Ware",
+    "stylesheet": true,
+    "editor": "synapse-dark",
+    "vibrancy": "dark",
+    "settingOverrides": {
+        "verticalnav": true,
+        "verticalnavcenter": true,
+        "squaretabs": true
+    }
+}
